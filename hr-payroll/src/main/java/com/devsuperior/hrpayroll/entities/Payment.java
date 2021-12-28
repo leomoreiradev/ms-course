@@ -24,6 +24,7 @@ public class Payment implements Serializable {
         this.days = days;
     }
 
+    //Dado calculado "como se existisse um atributo com o nome de Total"
     public double getTotal() {
         return days * dailyIncome;
     }
